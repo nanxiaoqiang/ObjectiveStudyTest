@@ -23,5 +23,8 @@
 - (void) subtract: (double) value;
 - (void) multipy: (double) value;
 - (void) divide: (double) value;
+
+// show method
++ (void) show;
 @end
 #endif /* Calculator_h */

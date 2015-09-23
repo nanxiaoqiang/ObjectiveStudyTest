@@ -32,27 +32,22 @@
     denominator = d;
 }
 
-@end
-
-//---- Program Section
-/*
-int main (int argc, const char * argv[])
++ (void) show
 {
-    @autoreleasepool {
-        Car * car1;
-        Car * car2;
-        
-        car1 = [[Car alloc]init];
-        car2 = [[Car alloc]init];
-        
-        [car1 setNumberator: 1150];
-        [car1 setDenominator: 3450];
-        
-        [car2 setNumberator: 5];
-        [car2 setDenominator: 99];
-        
-        [car1 print];
-        [car2 print];
-    }
-    return 0;
-}*/
+    
+    Car * car1;
+    Car * car2;
+    
+    car1 = [[Car alloc]init];
+    car2 = [[Car alloc]init];
+    
+    [car1 setNumberator: 1150];
+    [car1 setDenominator: 3450];
+    
+    [car2 setNumberator: 5];
+    [car2 setDenominator: 99];
+    
+    [car1 print];
+    [car2 print];
+}
+@end

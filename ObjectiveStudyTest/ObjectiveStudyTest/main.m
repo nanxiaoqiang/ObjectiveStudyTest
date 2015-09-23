@@ -11,36 +11,6 @@
 #import "com/nanxiaoqiang/test/objectivec/class1/Car.h"
 #import "com/nanxiaoqiang/test/objectivec/loop/MyLoop.h"
 
-void CalculatorTest()
-{
-    Calculator * cal = [[Calculator alloc]init];
-    [cal setAccumulator: 100.0];
-    [cal add: 200.0];
-    [cal divide: 15.0];
-    [cal subtract: 10.0];
-    [cal multipy: 5.0];
-    NSLog(@"The result is %g", [cal accumulator]);
-}
-
-void CarTest()
-{
-    Car * car1;
-    Car * car2;
-    
-    car1 = [[Car alloc]init];
-    car2 = [[Car alloc]init];
-    
-    [car1 setNumberator: 1150];
-    [car1 setDenominator: 3450];
-    
-    [car2 setNumberator: 5];
-    [car2 setDenominator: 99];
-    
-    [car1 print];
-    [car2 print];
-    return;
-}
-
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         NSLog(@"This is my First Objective-C Program.");
@@ -67,9 +37,9 @@ int main(int argc, const char * argv[]) {
         // long double            %f, %e, %g, %a
         // id (nil)               %p
         NSLog(@"a%%b");
-        CarTest();
-        CalculatorTest();
-        [MyLoop forTest];
+        [Car show];
+        [Calculator show];
+        [MyLoop show];
     }
     return 0;
 }

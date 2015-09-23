@@ -49,4 +49,15 @@
     accumulator /= value;
 }
 
++(void) show
+{
+    Calculator * cal = [[Calculator alloc]init];
+    [cal setAccumulator: 100.0];
+    [cal add: 200.0];
+    [cal divide: 15.0];
+    [cal subtract: 10.0];
+    [cal multipy: 5.0];
+    NSLog(@"The result is %g", [cal accumulator]);
+}
+
 @end

@@ -15,6 +15,8 @@
 - (void) print;
 - (void) setNumberator: (int) n;
 - (void) setDenominator: (int)  d;
+
++ (void) show;
 @end
 
 #endif /* Car_h */

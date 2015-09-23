@@ -22,4 +22,34 @@
     NSLog(@"1 add to 100 is %i", result);
 }
 
++ (void) whileTest
+{
+    int a = 100;
+    int result = a;
+    while (a-->0) {
+        result += a;
+    }
+    NSLog(@"while result is %i", result);
+}
+
++ (void) doWhileTest
+{
+    int a = 1;
+    int result = 0;
+    do
+    {
+        result += a;
+        a++;
+    }
+    while(a<=100);
+    NSLog(@"do while result is %i", result);
+}
+
++ (void) show
+{
+    [MyLoop forTest];
+    [MyLoop whileTest];
+    [MyLoop doWhileTest];
+}
+
 @end

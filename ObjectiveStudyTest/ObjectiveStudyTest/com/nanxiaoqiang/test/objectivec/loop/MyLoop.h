@@ -13,6 +13,10 @@
 
 @interface MyLoop : NSObject
 + (void) forTest;
++ (void) whileTest;
++ (void) doWhileTest;
+
++ (void) show;
 @end
 
 
