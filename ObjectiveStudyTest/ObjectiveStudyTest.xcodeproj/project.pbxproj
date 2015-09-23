@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		18E75EB81BB22BCC00814369 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E75EB71BB22BCC00814369 /* main.m */; };
+		18E75EBF1BB22DA100814369 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E75EBE1BB22DA100814369 /* Car.m */; settings = {ASSET_TAGS = (); }; };
+		18E75EC41BB269CB00814369 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E75EC31BB269CB00814369 /* Calculator.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		18E75EB41BB22BCC00814369 /* ObjectiveStudyTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveStudyTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E75EB71BB22BCC00814369 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E75EBE1BB22DA100814369 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Car.m; path = com/nanxiaoqiang/test/objectivec/class1/Car.m; sourceTree = "<group>"; };
+		18E75EC31BB269CB00814369 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Calculator.m; path = com/nanxiaoqiang/test/objectivec/expression/Calculator.m; sourceTree = "<group>"; };
+		18E75EC51BB26A5900814369 /* Calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Calculator.h; path = com/nanxiaoqiang/test/objectivec/expression/Calculator.h; sourceTree = "<group>"; };
+		18E75EC61BB26A9300814369 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Car.h; path = com/nanxiaoqiang/test/objectivec/class1/Car.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		18E75EB61BB22BCC00814369 /* ObjectiveStudyTest */ = {
 			isa = PBXGroup;
 			children = (
+				18E75EC51BB26A5900814369 /* Calculator.h */,
+				18E75EC31BB269CB00814369 /* Calculator.m */,
 				18E75EB71BB22BCC00814369 /* main.m */,
+				18E75EBE1BB22DA100814369 /* Car.m */,
+				18E75EC61BB26A9300814369 /* Car.h */,
 			);
 			path = ObjectiveStudyTest;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E75EBF1BB22DA100814369 /* Car.m in Sources */,
+				18E75EC41BB269CB00814369 /* Calculator.m in Sources */,
 				18E75EB81BB22BCC00814369 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
