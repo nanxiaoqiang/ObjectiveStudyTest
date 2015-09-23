@@ -10,6 +10,7 @@
 		18E75EB81BB22BCC00814369 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E75EB71BB22BCC00814369 /* main.m */; };
 		18E75EBF1BB22DA100814369 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E75EBE1BB22DA100814369 /* Car.m */; settings = {ASSET_TAGS = (); }; };
 		18E75EC41BB269CB00814369 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E75EC31BB269CB00814369 /* Calculator.m */; settings = {ASSET_TAGS = (); }; };
+		18E75ED01BB27E8300814369 /* MyLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E75ECF1BB27E8300814369 /* MyLoop.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		18E75EC31BB269CB00814369 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Calculator.m; path = com/nanxiaoqiang/test/objectivec/expression/Calculator.m; sourceTree = "<group>"; };
 		18E75EC51BB26A5900814369 /* Calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Calculator.h; path = com/nanxiaoqiang/test/objectivec/expression/Calculator.h; sourceTree = "<group>"; };
 		18E75EC61BB26A9300814369 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Car.h; path = com/nanxiaoqiang/test/objectivec/class1/Car.h; sourceTree = "<group>"; };
+		18E75ECE1BB27B2C00814369 /* MyLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyLoop.h; path = com/nanxiaoqiang/test/objectivec/loop/MyLoop.h; sourceTree = "<group>"; };
+		18E75ECF1BB27E8300814369 /* MyLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyLoop.m; path = com/nanxiaoqiang/test/objectivec/loop/MyLoop.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,13 +66,71 @@
 		18E75EB61BB22BCC00814369 /* ObjectiveStudyTest */ = {
 			isa = PBXGroup;
 			children = (
-				18E75EC51BB26A5900814369 /* Calculator.h */,
-				18E75EC31BB269CB00814369 /* Calculator.m */,
+				18E75EC71BB27A6C00814369 /* com */,
 				18E75EB71BB22BCC00814369 /* main.m */,
-				18E75EBE1BB22DA100814369 /* Car.m */,
-				18E75EC61BB26A9300814369 /* Car.h */,
 			);
 			path = ObjectiveStudyTest;
+			sourceTree = "<group>";
+		};
+		18E75EC71BB27A6C00814369 /* com */ = {
+			isa = PBXGroup;
+			children = (
+				18E75EC81BB27A7D00814369 /* nanxiaoqian */,
+			);
+			name = com;
+			sourceTree = "<group>";
+		};
+		18E75EC81BB27A7D00814369 /* nanxiaoqian */ = {
+			isa = PBXGroup;
+			children = (
+				18E75EC91BB27AA400814369 /* test */,
+			);
+			name = nanxiaoqian;
+			sourceTree = "<group>";
+		};
+		18E75EC91BB27AA400814369 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				18E75ECA1BB27AB400814369 /* objectivec */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		18E75ECA1BB27AB400814369 /* objectivec */ = {
+			isa = PBXGroup;
+			children = (
+				18E75ECD1BB27AED00814369 /* loop */,
+				18E75ECC1BB27AC400814369 /* expression */,
+				18E75ECB1BB27ABD00814369 /* class1 */,
+			);
+			name = objectivec;
+			sourceTree = "<group>";
+		};
+		18E75ECB1BB27ABD00814369 /* class1 */ = {
+			isa = PBXGroup;
+			children = (
+				18E75EC61BB26A9300814369 /* Car.h */,
+				18E75EBE1BB22DA100814369 /* Car.m */,
+			);
+			name = class1;
+			sourceTree = "<group>";
+		};
+		18E75ECC1BB27AC400814369 /* expression */ = {
+			isa = PBXGroup;
+			children = (
+				18E75EC51BB26A5900814369 /* Calculator.h */,
+				18E75EC31BB269CB00814369 /* Calculator.m */,
+			);
+			name = expression;
+			sourceTree = "<group>";
+		};
+		18E75ECD1BB27AED00814369 /* loop */ = {
+			isa = PBXGroup;
+			children = (
+				18E75ECE1BB27B2C00814369 /* MyLoop.h */,
+				18E75ECF1BB27E8300814369 /* MyLoop.m */,
+			);
+			name = loop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +192,7 @@
 				18E75EBF1BB22DA100814369 /* Car.m in Sources */,
 				18E75EC41BB269CB00814369 /* Calculator.m in Sources */,
 				18E75EB81BB22BCC00814369 /* main.m in Sources */,
+				18E75ED01BB27E8300814369 /* MyLoop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

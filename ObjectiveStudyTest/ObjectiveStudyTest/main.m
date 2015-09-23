@@ -9,6 +9,18 @@
 #import <Foundation/Foundation.h>
 #import "com/nanxiaoqiang/test/objectivec/expression/Calculator.h"
 #import "com/nanxiaoqiang/test/objectivec/class1/Car.h"
+#import "com/nanxiaoqiang/test/objectivec/loop/MyLoop.h"
+
+void CalculatorTest()
+{
+    Calculator * cal = [[Calculator alloc]init];
+    [cal setAccumulator: 100.0];
+    [cal add: 200.0];
+    [cal divide: 15.0];
+    [cal subtract: 10.0];
+    [cal multipy: 5.0];
+    NSLog(@"The result is %g", [cal accumulator]);
+}
 
 void CarTest()
 {
@@ -56,6 +68,8 @@ int main(int argc, const char * argv[]) {
         // id (nil)               %p
         NSLog(@"a%%b");
         CarTest();
+        CalculatorTest();
+        [MyLoop forTest];
     }
     return 0;
 }
