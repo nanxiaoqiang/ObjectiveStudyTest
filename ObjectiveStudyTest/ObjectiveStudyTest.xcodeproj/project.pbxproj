@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18660E5F1BB39CB70012B108 /* MyBool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18660E5E1BB39CB70012B108 /* MyBool.m */; settings = {ASSET_TAGS = (); }; };
+		18660E631BB3A0220012B108 /* WordLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 18660E621BB3A0220012B108 /* WordLength.m */; settings = {ASSET_TAGS = (); }; };
+		18660E671BB3B7250012B108 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 18660E661BB3B7250012B108 /* Shape.m */; settings = {ASSET_TAGS = (); }; };
+		18660E691BB3B8FE0012B108 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 18660E681BB3B8FE0012B108 /* Circle.m */; settings = {ASSET_TAGS = (); }; };
+		18660E6B1BB3BC3C0012B108 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 18660E6A1BB3BC3C0012B108 /* Rectangle.m */; settings = {ASSET_TAGS = (); }; };
+		18660E6E1BB3D7F40012B108 /* TestNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 18660E6D1BB3D7F40012B108 /* TestNSString.m */; settings = {ASSET_TAGS = (); }; };
+		18660E711BB3F65F0012B108 /* TestNSMutableString.m in Sources */ = {isa = PBXBuildFile; fileRef = 18660E701BB3F65F0012B108 /* TestNSMutableString.m */; settings = {ASSET_TAGS = (); }; };
+		18660E751BB3FA320012B108 /* TestNSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 18660E741BB3FA320012B108 /* TestNSArray.m */; settings = {ASSET_TAGS = (); }; };
 		18E75EB81BB22BCC00814369 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E75EB71BB22BCC00814369 /* main.m */; };
 		18E75EBF1BB22DA100814369 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E75EBE1BB22DA100814369 /* Car.m */; settings = {ASSET_TAGS = (); }; };
 		18E75EC41BB269CB00814369 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E75EC31BB269CB00814369 /* Calculator.m */; settings = {ASSET_TAGS = (); }; };
@@ -26,6 +34,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		18660E5D1BB39C7E0012B108 /* MyBool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyBool.h; path = com/nanxiaoqiang/test/objectivec/bool/MyBool.h; sourceTree = "<group>"; };
+		18660E5E1BB39CB70012B108 /* MyBool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyBool.m; path = com/nanxiaoqiang/test/objectivec/bool/MyBool.m; sourceTree = "<group>"; };
+		18660E611BB39FDF0012B108 /* WordLength.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WordLength.h; path = com/nanxiaoqiang/test/objectivec/string/WordLength.h; sourceTree = "<group>"; };
+		18660E621BB3A0220012B108 /* WordLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WordLength.m; path = com/nanxiaoqiang/test/objectivec/string/WordLength.m; sourceTree = "<group>"; };
+		18660E651BB3B5F30012B108 /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Shape.h; path = com/nanxiaoqiang/test/objectivec/extends/Shape.h; sourceTree = "<group>"; };
+		18660E661BB3B7250012B108 /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Shape.m; path = com/nanxiaoqiang/test/objectivec/extends/Shape.m; sourceTree = "<group>"; };
+		18660E681BB3B8FE0012B108 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Circle.m; path = com/nanxiaoqiang/test/objectivec/extends/Circle.m; sourceTree = "<group>"; };
+		18660E6A1BB3BC3C0012B108 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Rectangle.m; path = com/nanxiaoqiang/test/objectivec/extends/Rectangle.m; sourceTree = "<group>"; };
+		18660E6C1BB3D7B90012B108 /* TestNSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestNSString.h; path = com/nanxiaoqiang/test/objectivec/string/TestNSString.h; sourceTree = "<group>"; };
+		18660E6D1BB3D7F40012B108 /* TestNSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestNSString.m; path = com/nanxiaoqiang/test/objectivec/string/TestNSString.m; sourceTree = "<group>"; };
+		18660E6F1BB3F62B0012B108 /* TestNSMutableString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestNSMutableString.h; path = com/nanxiaoqiang/test/objectivec/string/TestNSMutableString.h; sourceTree = "<group>"; };
+		18660E701BB3F65F0012B108 /* TestNSMutableString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestNSMutableString.m; path = com/nanxiaoqiang/test/objectivec/string/TestNSMutableString.m; sourceTree = "<group>"; };
+		18660E731BB3FA0E0012B108 /* TestNSArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestNSArray.h; path = com/nanxiaoqiang/test/objectivec/collection/TestNSArray.h; sourceTree = "<group>"; };
+		18660E741BB3FA320012B108 /* TestNSArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestNSArray.m; path = com/nanxiaoqiang/test/objectivec/collection/TestNSArray.m; sourceTree = "<group>"; };
 		18E75EB41BB22BCC00814369 /* ObjectiveStudyTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveStudyTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E75EB71BB22BCC00814369 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18E75EBE1BB22DA100814369 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Car.m; path = com/nanxiaoqiang/test/objectivec/class1/Car.m; sourceTree = "<group>"; };
@@ -47,6 +69,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18660E5C1BB39C530012B108 /* bool */ = {
+			isa = PBXGroup;
+			children = (
+				18660E5D1BB39C7E0012B108 /* MyBool.h */,
+				18660E5E1BB39CB70012B108 /* MyBool.m */,
+			);
+			name = bool;
+			sourceTree = "<group>";
+		};
+		18660E601BB39FBB0012B108 /* string */ = {
+			isa = PBXGroup;
+			children = (
+				18660E611BB39FDF0012B108 /* WordLength.h */,
+				18660E621BB3A0220012B108 /* WordLength.m */,
+				18660E6C1BB3D7B90012B108 /* TestNSString.h */,
+				18660E6D1BB3D7F40012B108 /* TestNSString.m */,
+				18660E6F1BB3F62B0012B108 /* TestNSMutableString.h */,
+				18660E701BB3F65F0012B108 /* TestNSMutableString.m */,
+			);
+			name = string;
+			sourceTree = "<group>";
+		};
+		18660E641BB3B5D90012B108 /* extends */ = {
+			isa = PBXGroup;
+			children = (
+				18660E651BB3B5F30012B108 /* Shape.h */,
+				18660E661BB3B7250012B108 /* Shape.m */,
+				18660E681BB3B8FE0012B108 /* Circle.m */,
+				18660E6A1BB3BC3C0012B108 /* Rectangle.m */,
+			);
+			name = extends;
+			sourceTree = "<group>";
+		};
+		18660E721BB3F9860012B108 /* collection */ = {
+			isa = PBXGroup;
+			children = (
+				18660E731BB3FA0E0012B108 /* TestNSArray.h */,
+				18660E741BB3FA320012B108 /* TestNSArray.m */,
+			);
+			name = collection;
+			sourceTree = "<group>";
+		};
 		18E75EAB1BB22BCC00814369 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +163,10 @@
 		18E75ECA1BB27AB400814369 /* objectivec */ = {
 			isa = PBXGroup;
 			children = (
+				18660E721BB3F9860012B108 /* collection */,
+				18660E641BB3B5D90012B108 /* extends */,
+				18660E601BB39FBB0012B108 /* string */,
+				18660E5C1BB39C530012B108 /* bool */,
 				18E75ECD1BB27AED00814369 /* loop */,
 				18E75ECC1BB27AC400814369 /* expression */,
 				18E75ECB1BB27ABD00814369 /* class1 */,
@@ -190,9 +258,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E75EBF1BB22DA100814369 /* Car.m in Sources */,
+				18660E711BB3F65F0012B108 /* TestNSMutableString.m in Sources */,
+				18660E6E1BB3D7F40012B108 /* TestNSString.m in Sources */,
+				18660E5F1BB39CB70012B108 /* MyBool.m in Sources */,
+				18660E6B1BB3BC3C0012B108 /* Rectangle.m in Sources */,
 				18E75EC41BB269CB00814369 /* Calculator.m in Sources */,
 				18E75EB81BB22BCC00814369 /* main.m in Sources */,
 				18E75ED01BB27E8300814369 /* MyLoop.m in Sources */,
+				18660E751BB3FA320012B108 /* TestNSArray.m in Sources */,
+				18660E691BB3B8FE0012B108 /* Circle.m in Sources */,
+				18660E631BB3A0220012B108 /* WordLength.m in Sources */,
+				18660E671BB3B7250012B108 /* Shape.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +385,7 @@
 				18E75EBD1BB22BCC00814369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

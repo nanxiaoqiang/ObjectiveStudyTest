@@ -10,6 +10,12 @@
 #import "com/nanxiaoqiang/test/objectivec/expression/Calculator.h"
 #import "com/nanxiaoqiang/test/objectivec/class1/Car.h"
 #import "com/nanxiaoqiang/test/objectivec/loop/MyLoop.h"
+#import "com/nanxiaoqiang/test/objectivec/bool/MyBool.h"
+#import "com/nanxiaoqiang/test/objectivec/string/WordLength.h"
+#import "com/nanxiaoqiang/test/objectivec/string/TestNSString.h"
+#import "com/nanxiaoqiang/test/objectivec/string/TestNSMutableString.h"
+#import "com/nanxiaoqiang/test/objectivec/extends/Shape.h"
+#import "com/nanxiaoqiang/test/objectivec/collection/TestNSArray.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -40,6 +46,12 @@ int main(int argc, const char * argv[]) {
         [Car show];
         [Calculator show];
         [MyLoop show];
+        [MyBool show];
+        [WordLength show];
+        [Shape show];
+        [TestNSString show];
+        [TestNSMutableString show];
+        [TestNSArray show];
     }
     return 0;
 }
