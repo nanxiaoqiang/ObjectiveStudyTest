@@ -81,11 +81,65 @@
     }
 }
 
++ (void) testNSNumber
+{
+    NSNumber * number1;
+    NSNumber * number2;
+    NSNumber * number3;
+    NSNumber * number4;
+    NSNumber * number5;
+    NSNumber * number6;
+    NSNumber * number7;
+    number1 = [NSNumber numberWithBool:true];
+    number2 = [NSNumber numberWithChar:'A'];
+    number3 = [NSNumber numberWithDouble:331.79];
+    number4 = [NSNumber numberWithInt:-129];
+    NSInteger myInt = 4214;
+    number5 = [NSNumber numberWithInteger: myInt];
+    NSLog(@"numbers: \n%i\n%i\n%f\n%i\n%i\n%@\n%@", [number1 intValue], [number2 intValue], [number3 doubleValue], [number4 intValue], [number5 intValue], number6, number7);
+    
+}
+
++ (void) showNSValue
+{
+    NSRect rect = NSMakeRect(1, 2, 5, 15);
+    NSValue * value;
+    // 采用的是二进制的方式
+    value = [NSValue valueWithBytes:&rect objCType:@encode(NSRect)];
+    NSMutableArray * array;
+    array = [NSMutableArray arrayWithCapacity:10];
+    [array addObject:value];
+    NSValue * value1;
+    value1 = [array objectAtIndex:0];
+    NSRect rect1;
+    [value1 getValue: &rect1];
+    NSLog(@"rect1 :%f %f %f %f", rect1.origin.x, rect1.origin.y, rect1.size.width, rect1.size.height);
+    NSLog(@"------------------------");
+    // 其实NSValue可以直接转存NSRect、NSPoint、NSSize、NSPointer、NSRange、NSEdgeInsets基数struct
+    NSRect rect2 = NSMakeRect(2, 4, 6, 8);
+    NSPoint point1 = NSMakePoint(2, 8);
+    NSSize size1 = NSMakeSize(10, 20);
+    NSValue * value2;
+    NSValue * value3;
+    NSValue * value4;
+    value2 = [NSValue valueWithRect:rect2];
+    value3 = [NSValue valueWithPoint:point1];
+    value4 = [NSValue valueWithSize:size1];
+    NSRect rect3 = [value2 rectValue];
+    NSPoint point2 = [value3 pointValue];
+    NSSize size2 = [value4 sizeValue];
+    NSLog(@"rect from NSValue:%f %f %f %f", rect3.origin.x, rect3.origin.y, rect3.size.width, rect.size.height);
+    NSLog(@"point from NSValue:%f %f", point2.x, point2.y);
+    NSLog(@"size from NSValue:%f %f", size2.width, size2.height);
+}
+
 + (void) show
 {
     [self showTestNSArray];
     [self showTestNSMutableArray];
     [self showTestNSDictionary];
+    [self testNSNumber];
+    [self showNSValue];
 }
 
 
