@@ -26,12 +26,24 @@
     NSLog(@"5th item is \'%@\'", [array1 objectAtIndex:4]);
     NSString * str1 = [array1 componentsJoinedByString:@","];
     NSLog(@"合并后的字符串：%@", str1);
-    // 下边的句子会爆出异常NSRangeException
-    // NSLog(@"5th item is %@", [array objectAtIndex:5]);
     NSLog(@"下边是for-in循环");
     for (NSString * string in array1) {
         NSLog(@"使用for-in遍历:item is %@", string);
     }
+    // 下边的句子会爆出异常NSRangeException
+    @try {
+        NSLog(@"5th item is %@", [array objectAtIndex:5]);
+    }
+    @catch (NSException * exception) {
+        // @throw exception;
+        // 向外抛异常，在外边还得捕获
+        NSLog(@"Caught Exception:%@, reaon:%@", exception.name, exception.reason);
+        // Caught Exception:NSRangeException, reaon:*** -[__NSArrayI objectAtIndex:]: index 5 beyond bounds [0 .. 3]
+    }
+    @finally {
+        // nothing……
+    }
+    
 }
 
 // 可变数组

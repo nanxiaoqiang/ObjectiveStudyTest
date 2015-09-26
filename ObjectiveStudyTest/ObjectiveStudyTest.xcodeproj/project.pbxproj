@@ -15,6 +15,8 @@
 		18660E6E1BB3D7F40012B108 /* TestNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 18660E6D1BB3D7F40012B108 /* TestNSString.m */; settings = {ASSET_TAGS = (); }; };
 		18660E711BB3F65F0012B108 /* TestNSMutableString.m in Sources */ = {isa = PBXBuildFile; fileRef = 18660E701BB3F65F0012B108 /* TestNSMutableString.m */; settings = {ASSET_TAGS = (); }; };
 		18660E751BB3FA320012B108 /* TestNSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 18660E741BB3FA320012B108 /* TestNSArray.m */; settings = {ASSET_TAGS = (); }; };
+		18660E781BB61A790012B108 /* TestInitClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 18660E771BB61A790012B108 /* TestInitClass.m */; settings = {ASSET_TAGS = (); }; };
+		18660E7B1BB646720012B108 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 18660E7A1BB646720012B108 /* TestClass.m */; settings = {ASSET_TAGS = (); }; };
 		18E75EB81BB22BCC00814369 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E75EB71BB22BCC00814369 /* main.m */; };
 		18E75EBF1BB22DA100814369 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E75EBE1BB22DA100814369 /* Car.m */; settings = {ASSET_TAGS = (); }; };
 		18E75EC41BB269CB00814369 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E75EC31BB269CB00814369 /* Calculator.m */; settings = {ASSET_TAGS = (); }; };
@@ -48,6 +50,10 @@
 		18660E701BB3F65F0012B108 /* TestNSMutableString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestNSMutableString.m; path = com/nanxiaoqiang/test/objectivec/string/TestNSMutableString.m; sourceTree = "<group>"; };
 		18660E731BB3FA0E0012B108 /* TestNSArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestNSArray.h; path = com/nanxiaoqiang/test/objectivec/collection/TestNSArray.h; sourceTree = "<group>"; };
 		18660E741BB3FA320012B108 /* TestNSArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestNSArray.m; path = com/nanxiaoqiang/test/objectivec/collection/TestNSArray.m; sourceTree = "<group>"; };
+		18660E761BB61A540012B108 /* TestInitClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestInitClass.h; path = com/nanxiaoqiang/test/objectivec/class1/TestInitClass.h; sourceTree = "<group>"; };
+		18660E771BB61A790012B108 /* TestInitClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestInitClass.m; path = com/nanxiaoqiang/test/objectivec/class1/TestInitClass.m; sourceTree = "<group>"; };
+		18660E791BB646720012B108 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestClass.h; path = com/nanxiaoqiang/test/objectivec/class1/TestClass.h; sourceTree = "<group>"; };
+		18660E7A1BB646720012B108 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestClass.m; path = com/nanxiaoqiang/test/objectivec/class1/TestClass.m; sourceTree = "<group>"; };
 		18E75EB41BB22BCC00814369 /* ObjectiveStudyTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveStudyTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E75EB71BB22BCC00814369 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18E75EBE1BB22DA100814369 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Car.m; path = com/nanxiaoqiang/test/objectivec/class1/Car.m; sourceTree = "<group>"; };
@@ -179,6 +185,10 @@
 			children = (
 				18E75EC61BB26A9300814369 /* Car.h */,
 				18E75EBE1BB22DA100814369 /* Car.m */,
+				18660E761BB61A540012B108 /* TestInitClass.h */,
+				18660E771BB61A790012B108 /* TestInitClass.m */,
+				18660E791BB646720012B108 /* TestClass.h */,
+				18660E7A1BB646720012B108 /* TestClass.m */,
 			);
 			name = class1;
 			sourceTree = "<group>";
@@ -263,7 +273,9 @@
 				18660E5F1BB39CB70012B108 /* MyBool.m in Sources */,
 				18660E6B1BB3BC3C0012B108 /* Rectangle.m in Sources */,
 				18E75EC41BB269CB00814369 /* Calculator.m in Sources */,
+				18660E7B1BB646720012B108 /* TestClass.m in Sources */,
 				18E75EB81BB22BCC00814369 /* main.m in Sources */,
+				18660E781BB61A790012B108 /* TestInitClass.m in Sources */,
 				18E75ED01BB27E8300814369 /* MyLoop.m in Sources */,
 				18660E751BB3FA320012B108 /* TestNSArray.m in Sources */,
 				18660E691BB3B8FE0012B108 /* Circle.m in Sources */,

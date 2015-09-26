@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "com/nanxiaoqiang/test/objectivec/expression/Calculator.h"
 #import "com/nanxiaoqiang/test/objectivec/class1/Car.h"
+#import "com/nanxiaoqiang/test/objectivec/class1/TestInitClass.h"
+#import "com/nanxiaoqiang/test/objectivec/class1/TestClass.h"
 #import "com/nanxiaoqiang/test/objectivec/loop/MyLoop.h"
 #import "com/nanxiaoqiang/test/objectivec/bool/MyBool.h"
 #import "com/nanxiaoqiang/test/objectivec/string/WordLength.h"
@@ -52,6 +54,8 @@ int main(int argc, const char * argv[]) {
         [TestNSString show];
         [TestNSMutableString show];
         [TestNSArray show];
+        [TestInitClass show];
+        [TestClass show];
     }
     return 0;
 }

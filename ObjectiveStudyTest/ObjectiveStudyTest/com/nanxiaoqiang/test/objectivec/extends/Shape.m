@@ -85,6 +85,7 @@
     [circle2 draw];
     NSLog(@"circle's color is %i", circle2.fillColor);
     Shape * shap = [[Circle alloc]init];
+    NSLog(@"--------- Down to shap draw ----------");
     [shap draw];
 }
 @end
