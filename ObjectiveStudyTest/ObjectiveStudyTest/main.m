@@ -18,6 +18,7 @@
 #import "com/nanxiaoqiang/test/objectivec/string/TestNSMutableString.h"
 #import "com/nanxiaoqiang/test/objectivec/extends/Shape.h"
 #import "com/nanxiaoqiang/test/objectivec/collection/TestNSArray.h"
+#import "com/nanxiaoqiang/test/objectivec/category/PersonCategory.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -56,6 +57,7 @@ int main(int argc, const char * argv[]) {
         [TestNSArray show];
         [TestInitClass show];
         [TestClass show];
+        [Person show];
     }
     return 0;
 }

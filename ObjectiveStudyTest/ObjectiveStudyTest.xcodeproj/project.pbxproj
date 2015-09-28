@@ -17,6 +17,8 @@
 		18660E751BB3FA320012B108 /* TestNSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 18660E741BB3FA320012B108 /* TestNSArray.m */; settings = {ASSET_TAGS = (); }; };
 		18660E781BB61A790012B108 /* TestInitClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 18660E771BB61A790012B108 /* TestInitClass.m */; settings = {ASSET_TAGS = (); }; };
 		18660E7B1BB646720012B108 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 18660E7A1BB646720012B108 /* TestClass.m */; settings = {ASSET_TAGS = (); }; };
+		18C0A3ED1BB945BF005B7424 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C0A3EC1BB945BF005B7424 /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		18C0A3F11BB96104005B7424 /* PersonCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C0A3F01BB96104005B7424 /* PersonCategory.m */; settings = {ASSET_TAGS = (); }; };
 		18E75EB81BB22BCC00814369 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E75EB71BB22BCC00814369 /* main.m */; };
 		18E75EBF1BB22DA100814369 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E75EBE1BB22DA100814369 /* Car.m */; settings = {ASSET_TAGS = (); }; };
 		18E75EC41BB269CB00814369 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E75EC31BB269CB00814369 /* Calculator.m */; settings = {ASSET_TAGS = (); }; };
@@ -54,6 +56,10 @@
 		18660E771BB61A790012B108 /* TestInitClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestInitClass.m; path = com/nanxiaoqiang/test/objectivec/class1/TestInitClass.m; sourceTree = "<group>"; };
 		18660E791BB646720012B108 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestClass.h; path = com/nanxiaoqiang/test/objectivec/class1/TestClass.h; sourceTree = "<group>"; };
 		18660E7A1BB646720012B108 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestClass.m; path = com/nanxiaoqiang/test/objectivec/class1/TestClass.m; sourceTree = "<group>"; };
+		18C0A3EC1BB945BF005B7424 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = com/nanxiaoqiang/test/objectivec/category/Person.m; sourceTree = "<group>"; };
+		18C0A3EE1BB945D4005B7424 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Person.h; path = com/nanxiaoqiang/test/objectivec/category/Person.h; sourceTree = "<group>"; };
+		18C0A3EF1BB946B8005B7424 /* PersonCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PersonCategory.h; path = com/nanxiaoqiang/test/objectivec/category/PersonCategory.h; sourceTree = "<group>"; };
+		18C0A3F01BB96104005B7424 /* PersonCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonCategory.m; path = com/nanxiaoqiang/test/objectivec/category/PersonCategory.m; sourceTree = "<group>"; };
 		18E75EB41BB22BCC00814369 /* ObjectiveStudyTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveStudyTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E75EB71BB22BCC00814369 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18E75EBE1BB22DA100814369 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Car.m; path = com/nanxiaoqiang/test/objectivec/class1/Car.m; sourceTree = "<group>"; };
@@ -117,6 +123,17 @@
 			name = collection;
 			sourceTree = "<group>";
 		};
+		18C0A3EB1BB94575005B7424 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				18C0A3EC1BB945BF005B7424 /* Person.m */,
+				18C0A3EE1BB945D4005B7424 /* Person.h */,
+				18C0A3EF1BB946B8005B7424 /* PersonCategory.h */,
+				18C0A3F01BB96104005B7424 /* PersonCategory.m */,
+			);
+			name = category;
+			sourceTree = "<group>";
+		};
 		18E75EAB1BB22BCC00814369 = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +186,7 @@
 		18E75ECA1BB27AB400814369 /* objectivec */ = {
 			isa = PBXGroup;
 			children = (
+				18C0A3EB1BB94575005B7424 /* category */,
 				18660E721BB3F9860012B108 /* collection */,
 				18660E641BB3B5D90012B108 /* extends */,
 				18660E601BB39FBB0012B108 /* string */,
@@ -267,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C0A3F11BB96104005B7424 /* PersonCategory.m in Sources */,
 				18E75EBF1BB22DA100814369 /* Car.m in Sources */,
 				18660E711BB3F65F0012B108 /* TestNSMutableString.m in Sources */,
 				18660E6E1BB3D7F40012B108 /* TestNSString.m in Sources */,
@@ -279,6 +298,7 @@
 				18E75ED01BB27E8300814369 /* MyLoop.m in Sources */,
 				18660E751BB3FA320012B108 /* TestNSArray.m in Sources */,
 				18660E691BB3B8FE0012B108 /* Circle.m in Sources */,
+				18C0A3ED1BB945BF005B7424 /* Person.m in Sources */,
 				18660E631BB3A0220012B108 /* WordLength.m in Sources */,
 				18660E671BB3B7250012B108 /* Shape.m in Sources */,
 			);
